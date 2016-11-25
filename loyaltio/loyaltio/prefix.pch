@@ -1,0 +1,46 @@
+//
+//  prefix.pch
+//
+//
+//
+//
+
+#ifndef prefix_pch
+#define prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#ifdef __OBJC__
+
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+
+    #import <CoreData/CoreData.h>
+
+     //remember imports all the Pods here
+
+    //#import <SDWebImage/UIImageView+WebCache.h>
+
+
+    #import "constants.h"
+
+    #import "Preference.h"
+
+    #import "UIColor+color.h"
+    #import "UIFont+font.h"
+    #import "UILabel+Formatted.h"
+    #import "UIView+view.h"
+
+
+    #import "ConectionManager.h"
+    #import "CoreDataManager.h"
+
+    #import "ConectionManager.h"
+    #import "ConectionHelper.h"
+
+// NSLog - custom
+    #define MyLog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
+
+
+
+#endif /* prefix_pch */

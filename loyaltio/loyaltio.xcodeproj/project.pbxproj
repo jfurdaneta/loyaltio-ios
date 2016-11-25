@@ -1,0 +1,749 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		565F04551DE5B5DF00FB1022 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 565F04541DE5B5DF00FB1022 /* main.m */; };
+		565F04581DE5B5DF00FB1022 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 565F04571DE5B5DF00FB1022 /* AppDelegate.m */; };
+		565F045B1DE5B5DF00FB1022 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 565F045A1DE5B5DF00FB1022 /* ViewController.m */; };
+		565F045E1DE5B5DF00FB1022 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 565F045C1DE5B5DF00FB1022 /* Main.storyboard */; };
+		565F04601DE5B5DF00FB1022 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 565F045F1DE5B5DF00FB1022 /* Assets.xcassets */; };
+		565F04631DE5B5DF00FB1022 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 565F04611DE5B5DF00FB1022 /* LaunchScreen.storyboard */; };
+		565F046E1DE5B5DF00FB1022 /* loyaltioTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 565F046D1DE5B5DF00FB1022 /* loyaltioTests.m */; };
+		565F04791DE5B5DF00FB1022 /* loyaltioUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 565F04781DE5B5DF00FB1022 /* loyaltioUITests.m */; };
+		565F04BA1DE5B60100FB1022 /* UIBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 565F04881DE5B60100FB1022 /* UIBaseVC.m */; };
+		565F04BB1DE5B60100FB1022 /* exportOptions.plist in Resources */ = {isa = PBXBuildFile; fileRef = 565F04891DE5B60100FB1022 /* exportOptions.plist */; };
+		565F04BC1DE5B60100FB1022 /* FDTakeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 565F048D1DE5B60100FB1022 /* FDTakeController.m */; };
+		565F04BD1DE5B60100FB1022 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 565F04901DE5B60100FB1022 /* Reachability.m */; };
+		565F04BE1DE5B60100FB1022 /* ConectionHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 565F04931DE5B60100FB1022 /* ConectionHelper.m */; };
+		565F04BF1DE5B60100FB1022 /* CoreDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 565F04961DE5B60100FB1022 /* CoreDataHelper.m */; };
+		565F04C01DE5B60100FB1022 /* Preference.m in Sources */ = {isa = PBXBuildFile; fileRef = 565F04981DE5B60100FB1022 /* Preference.m */; };
+		565F04C11DE5B60100FB1022 /* BlueToothCharacterist.m in Sources */ = {isa = PBXBuildFile; fileRef = 565F049B1DE5B60100FB1022 /* BlueToothCharacterist.m */; };
+		565F04C21DE5B60100FB1022 /* BluetoothManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 565F049D1DE5B60100FB1022 /* BluetoothManager.m */; };
+		565F04C31DE5B60100FB1022 /* ConectionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 565F049F1DE5B60100FB1022 /* ConectionManager.m */; };
+		565F04C41DE5B60100FB1022 /* CoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 565F04A11DE5B60100FB1022 /* CoreDataManager.m */; };
+		565F04C51DE5B60100FB1022 /* .gitkeep.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 565F04A31DE5B60100FB1022 /* .gitkeep.rtf */; };
+		565F04C61DE5B60100FB1022 /* .gitkeep.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 565F04A71DE5B60100FB1022 /* .gitkeep.rtf */; };
+		565F04C71DE5B60100FB1022 /* distribute_ipa.sh in Resources */ = {isa = PBXBuildFile; fileRef = 565F04A91DE5B60100FB1022 /* distribute_ipa.sh */; };
+		565F04C81DE5B60100FB1022 /* testfairy-upload-ios.sh in Resources */ = {isa = PBXBuildFile; fileRef = 565F04AA1DE5B60100FB1022 /* testfairy-upload-ios.sh */; };
+		565F04C91DE5B60100FB1022 /* NSDate+date.m in Sources */ = {isa = PBXBuildFile; fileRef = 565F04AD1DE5B60100FB1022 /* NSDate+date.m */; };
+		565F04CA1DE5B60100FB1022 /* UIColor+color.m in Sources */ = {isa = PBXBuildFile; fileRef = 565F04AF1DE5B60100FB1022 /* UIColor+color.m */; };
+		565F04CB1DE5B60100FB1022 /* UIFont+font.m in Sources */ = {isa = PBXBuildFile; fileRef = 565F04B11DE5B60100FB1022 /* UIFont+font.m */; };
+		565F04CC1DE5B60100FB1022 /* UILabel+Formatted.m in Sources */ = {isa = PBXBuildFile; fileRef = 565F04B31DE5B60100FB1022 /* UILabel+Formatted.m */; };
+		565F04CD1DE5B60100FB1022 /* UIView+view.m in Sources */ = {isa = PBXBuildFile; fileRef = 565F04B51DE5B60100FB1022 /* UIView+view.m */; };
+		565F04CE1DE5B60100FB1022 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 565F04B71DE5B60100FB1022 /* Utils.m */; };
+		565F04CF1DE5B60100FB1022 /* .gitkeep.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 565F04B91DE5B60100FB1022 /* .gitkeep.rtf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		565F046A1DE5B5DF00FB1022 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 565F04481DE5B5DF00FB1022 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 565F044F1DE5B5DF00FB1022;
+			remoteInfo = loyaltio;
+		};
+		565F04751DE5B5DF00FB1022 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 565F04481DE5B5DF00FB1022 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 565F044F1DE5B5DF00FB1022;
+			remoteInfo = loyaltio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		565F04501DE5B5DF00FB1022 /* loyaltio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = loyaltio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		565F04541DE5B5DF00FB1022 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		565F04561DE5B5DF00FB1022 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		565F04571DE5B5DF00FB1022 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		565F04591DE5B5DF00FB1022 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../ViewController.h; sourceTree = "<group>"; };
+		565F045A1DE5B5DF00FB1022 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../ViewController.m; sourceTree = "<group>"; };
+		565F045D1DE5B5DF00FB1022 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		565F045F1DE5B5DF00FB1022 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		565F04621DE5B5DF00FB1022 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		565F04641DE5B5DF00FB1022 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		565F04691DE5B5DF00FB1022 /* loyaltioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = loyaltioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		565F046D1DE5B5DF00FB1022 /* loyaltioTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = loyaltioTests.m; sourceTree = "<group>"; };
+		565F046F1DE5B5DF00FB1022 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		565F04741DE5B5DF00FB1022 /* loyaltioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = loyaltioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		565F04781DE5B5DF00FB1022 /* loyaltioUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = loyaltioUITests.m; sourceTree = "<group>"; };
+		565F047A1DE5B5DF00FB1022 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		565F04871DE5B60100FB1022 /* UIBaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIBaseVC.h; sourceTree = "<group>"; };
+		565F04881DE5B60100FB1022 /* UIBaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIBaseVC.m; sourceTree = "<group>"; };
+		565F04891DE5B60100FB1022 /* exportOptions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = exportOptions.plist; sourceTree = "<group>"; };
+		565F048C1DE5B60100FB1022 /* FDTakeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDTakeController.h; sourceTree = "<group>"; };
+		565F048D1DE5B60100FB1022 /* FDTakeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDTakeController.m; sourceTree = "<group>"; };
+		565F048F1DE5B60100FB1022 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		565F04901DE5B60100FB1022 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		565F04921DE5B60100FB1022 /* ConectionHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConectionHelper.h; sourceTree = "<group>"; };
+		565F04931DE5B60100FB1022 /* ConectionHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConectionHelper.m; sourceTree = "<group>"; };
+		565F04941DE5B60100FB1022 /* constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = constants.h; sourceTree = "<group>"; };
+		565F04951DE5B60100FB1022 /* CoreDataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataHelper.h; sourceTree = "<group>"; };
+		565F04961DE5B60100FB1022 /* CoreDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataHelper.m; sourceTree = "<group>"; };
+		565F04971DE5B60100FB1022 /* Preference.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Preference.h; sourceTree = "<group>"; };
+		565F04981DE5B60100FB1022 /* Preference.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Preference.m; sourceTree = "<group>"; };
+		565F049A1DE5B60100FB1022 /* BlueToothCharacterist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlueToothCharacterist.h; sourceTree = "<group>"; };
+		565F049B1DE5B60100FB1022 /* BlueToothCharacterist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlueToothCharacterist.m; sourceTree = "<group>"; };
+		565F049C1DE5B60100FB1022 /* BluetoothManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BluetoothManager.h; sourceTree = "<group>"; };
+		565F049D1DE5B60100FB1022 /* BluetoothManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BluetoothManager.m; sourceTree = "<group>"; };
+		565F049E1DE5B60100FB1022 /* ConectionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConectionManager.h; sourceTree = "<group>"; };
+		565F049F1DE5B60100FB1022 /* ConectionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConectionManager.m; sourceTree = "<group>"; };
+		565F04A01DE5B60100FB1022 /* CoreDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataManager.h; sourceTree = "<group>"; };
+		565F04A11DE5B60100FB1022 /* CoreDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataManager.m; sourceTree = "<group>"; };
+		565F04A31DE5B60100FB1022 /* .gitkeep.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = .gitkeep.rtf; sourceTree = "<group>"; };
+		565F04A41DE5B60100FB1022 /* prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = prefix.pch; sourceTree = "<group>"; };
+		565F04A71DE5B60100FB1022 /* .gitkeep.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = .gitkeep.rtf; sourceTree = "<group>"; };
+		565F04A91DE5B60100FB1022 /* distribute_ipa.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = distribute_ipa.sh; sourceTree = "<group>"; };
+		565F04AA1DE5B60100FB1022 /* testfairy-upload-ios.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "testfairy-upload-ios.sh"; sourceTree = "<group>"; };
+		565F04AC1DE5B60100FB1022 /* NSDate+date.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+date.h"; sourceTree = "<group>"; };
+		565F04AD1DE5B60100FB1022 /* NSDate+date.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+date.m"; sourceTree = "<group>"; };
+		565F04AE1DE5B60100FB1022 /* UIColor+color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+color.h"; sourceTree = "<group>"; };
+		565F04AF1DE5B60100FB1022 /* UIColor+color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+color.m"; sourceTree = "<group>"; };
+		565F04B01DE5B60100FB1022 /* UIFont+font.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+font.h"; sourceTree = "<group>"; };
+		565F04B11DE5B60100FB1022 /* UIFont+font.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+font.m"; sourceTree = "<group>"; };
+		565F04B21DE5B60100FB1022 /* UILabel+Formatted.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Formatted.h"; sourceTree = "<group>"; };
+		565F04B31DE5B60100FB1022 /* UILabel+Formatted.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Formatted.m"; sourceTree = "<group>"; };
+		565F04B41DE5B60100FB1022 /* UIView+view.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+view.h"; sourceTree = "<group>"; };
+		565F04B51DE5B60100FB1022 /* UIView+view.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+view.m"; sourceTree = "<group>"; };
+		565F04B61DE5B60100FB1022 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		565F04B71DE5B60100FB1022 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		565F04B91DE5B60100FB1022 /* .gitkeep.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = .gitkeep.rtf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		565F044D1DE5B5DF00FB1022 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		565F04661DE5B5DF00FB1022 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		565F04711DE5B5DF00FB1022 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		565F04471DE5B5DF00FB1022 = {
+			isa = PBXGroup;
+			children = (
+				565F04521DE5B5DF00FB1022 /* loyaltio */,
+				565F046C1DE5B5DF00FB1022 /* loyaltioTests */,
+				565F04771DE5B5DF00FB1022 /* loyaltioUITests */,
+				565F04511DE5B5DF00FB1022 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		565F04511DE5B5DF00FB1022 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				565F04501DE5B5DF00FB1022 /* loyaltio.app */,
+				565F04691DE5B5DF00FB1022 /* loyaltioTests.xctest */,
+				565F04741DE5B5DF00FB1022 /* loyaltioUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		565F04521DE5B5DF00FB1022 /* loyaltio */ = {
+			isa = PBXGroup;
+			children = (
+				565F04D01DE5B62E00FB1022 /* Storyboard */,
+				565F04861DE5B60100FB1022 /* ComponentsUI */,
+				565F04891DE5B60100FB1022 /* exportOptions.plist */,
+				565F048A1DE5B60100FB1022 /* ExternalsLibraries */,
+				565F04911DE5B60100FB1022 /* Helpers */,
+				565F04991DE5B60100FB1022 /* Managers */,
+				565F04A21DE5B60100FB1022 /* Models */,
+				565F04A41DE5B60100FB1022 /* prefix.pch */,
+				565F04A51DE5B60100FB1022 /* Resources */,
+				565F04A81DE5B60100FB1022 /* scripts */,
+				565F04AB1DE5B60100FB1022 /* Utils+Categories */,
+				565F04B81DE5B60100FB1022 /* ViewControllers */,
+				565F04561DE5B5DF00FB1022 /* AppDelegate.h */,
+				565F04571DE5B5DF00FB1022 /* AppDelegate.m */,
+				565F045F1DE5B5DF00FB1022 /* Assets.xcassets */,
+				565F04531DE5B5DF00FB1022 /* Supporting Files */,
+			);
+			path = loyaltio;
+			sourceTree = "<group>";
+		};
+		565F04531DE5B5DF00FB1022 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				565F04641DE5B5DF00FB1022 /* Info.plist */,
+				565F04541DE5B5DF00FB1022 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		565F046C1DE5B5DF00FB1022 /* loyaltioTests */ = {
+			isa = PBXGroup;
+			children = (
+				565F046D1DE5B5DF00FB1022 /* loyaltioTests.m */,
+				565F046F1DE5B5DF00FB1022 /* Info.plist */,
+			);
+			path = loyaltioTests;
+			sourceTree = "<group>";
+		};
+		565F04771DE5B5DF00FB1022 /* loyaltioUITests */ = {
+			isa = PBXGroup;
+			children = (
+				565F04781DE5B5DF00FB1022 /* loyaltioUITests.m */,
+				565F047A1DE5B5DF00FB1022 /* Info.plist */,
+			);
+			path = loyaltioUITests;
+			sourceTree = "<group>";
+		};
+		565F04861DE5B60100FB1022 /* ComponentsUI */ = {
+			isa = PBXGroup;
+			children = (
+				565F04871DE5B60100FB1022 /* UIBaseVC.h */,
+				565F04881DE5B60100FB1022 /* UIBaseVC.m */,
+			);
+			path = ComponentsUI;
+			sourceTree = "<group>";
+		};
+		565F048A1DE5B60100FB1022 /* ExternalsLibraries */ = {
+			isa = PBXGroup;
+			children = (
+				565F048B1DE5B60100FB1022 /* FDTake */,
+				565F048E1DE5B60100FB1022 /* Reachability */,
+			);
+			path = ExternalsLibraries;
+			sourceTree = "<group>";
+		};
+		565F048B1DE5B60100FB1022 /* FDTake */ = {
+			isa = PBXGroup;
+			children = (
+				565F048C1DE5B60100FB1022 /* FDTakeController.h */,
+				565F048D1DE5B60100FB1022 /* FDTakeController.m */,
+			);
+			path = FDTake;
+			sourceTree = "<group>";
+		};
+		565F048E1DE5B60100FB1022 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				565F048F1DE5B60100FB1022 /* Reachability.h */,
+				565F04901DE5B60100FB1022 /* Reachability.m */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		565F04911DE5B60100FB1022 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				565F04921DE5B60100FB1022 /* ConectionHelper.h */,
+				565F04931DE5B60100FB1022 /* ConectionHelper.m */,
+				565F04941DE5B60100FB1022 /* constants.h */,
+				565F04951DE5B60100FB1022 /* CoreDataHelper.h */,
+				565F04961DE5B60100FB1022 /* CoreDataHelper.m */,
+				565F04971DE5B60100FB1022 /* Preference.h */,
+				565F04981DE5B60100FB1022 /* Preference.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		565F04991DE5B60100FB1022 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				565F049A1DE5B60100FB1022 /* BlueToothCharacterist.h */,
+				565F049B1DE5B60100FB1022 /* BlueToothCharacterist.m */,
+				565F049C1DE5B60100FB1022 /* BluetoothManager.h */,
+				565F049D1DE5B60100FB1022 /* BluetoothManager.m */,
+				565F049E1DE5B60100FB1022 /* ConectionManager.h */,
+				565F049F1DE5B60100FB1022 /* ConectionManager.m */,
+				565F04A01DE5B60100FB1022 /* CoreDataManager.h */,
+				565F04A11DE5B60100FB1022 /* CoreDataManager.m */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		565F04A21DE5B60100FB1022 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				565F04A31DE5B60100FB1022 /* .gitkeep.rtf */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		565F04A51DE5B60100FB1022 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				565F04A61DE5B60100FB1022 /* Img */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		565F04A61DE5B60100FB1022 /* Img */ = {
+			isa = PBXGroup;
+			children = (
+				565F04A71DE5B60100FB1022 /* .gitkeep.rtf */,
+			);
+			path = Img;
+			sourceTree = "<group>";
+		};
+		565F04A81DE5B60100FB1022 /* scripts */ = {
+			isa = PBXGroup;
+			children = (
+				565F04A91DE5B60100FB1022 /* distribute_ipa.sh */,
+				565F04AA1DE5B60100FB1022 /* testfairy-upload-ios.sh */,
+			);
+			path = scripts;
+			sourceTree = "<group>";
+		};
+		565F04AB1DE5B60100FB1022 /* Utils+Categories */ = {
+			isa = PBXGroup;
+			children = (
+				565F04AC1DE5B60100FB1022 /* NSDate+date.h */,
+				565F04AD1DE5B60100FB1022 /* NSDate+date.m */,
+				565F04AE1DE5B60100FB1022 /* UIColor+color.h */,
+				565F04AF1DE5B60100FB1022 /* UIColor+color.m */,
+				565F04B01DE5B60100FB1022 /* UIFont+font.h */,
+				565F04B11DE5B60100FB1022 /* UIFont+font.m */,
+				565F04B21DE5B60100FB1022 /* UILabel+Formatted.h */,
+				565F04B31DE5B60100FB1022 /* UILabel+Formatted.m */,
+				565F04B41DE5B60100FB1022 /* UIView+view.h */,
+				565F04B51DE5B60100FB1022 /* UIView+view.m */,
+				565F04B61DE5B60100FB1022 /* Utils.h */,
+				565F04B71DE5B60100FB1022 /* Utils.m */,
+			);
+			path = "Utils+Categories";
+			sourceTree = "<group>";
+		};
+		565F04B81DE5B60100FB1022 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				565F045A1DE5B5DF00FB1022 /* ViewController.m */,
+				565F04591DE5B5DF00FB1022 /* ViewController.h */,
+				565F04B91DE5B60100FB1022 /* .gitkeep.rtf */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		565F04D01DE5B62E00FB1022 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				565F045C1DE5B5DF00FB1022 /* Main.storyboard */,
+				565F04611DE5B5DF00FB1022 /* LaunchScreen.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		565F044F1DE5B5DF00FB1022 /* loyaltio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 565F047D1DE5B5DF00FB1022 /* Build configuration list for PBXNativeTarget "loyaltio" */;
+			buildPhases = (
+				565F044C1DE5B5DF00FB1022 /* Sources */,
+				565F044D1DE5B5DF00FB1022 /* Frameworks */,
+				565F044E1DE5B5DF00FB1022 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = loyaltio;
+			productName = loyaltio;
+			productReference = 565F04501DE5B5DF00FB1022 /* loyaltio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		565F04681DE5B5DF00FB1022 /* loyaltioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 565F04801DE5B5DF00FB1022 /* Build configuration list for PBXNativeTarget "loyaltioTests" */;
+			buildPhases = (
+				565F04651DE5B5DF00FB1022 /* Sources */,
+				565F04661DE5B5DF00FB1022 /* Frameworks */,
+				565F04671DE5B5DF00FB1022 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				565F046B1DE5B5DF00FB1022 /* PBXTargetDependency */,
+			);
+			name = loyaltioTests;
+			productName = loyaltioTests;
+			productReference = 565F04691DE5B5DF00FB1022 /* loyaltioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		565F04731DE5B5DF00FB1022 /* loyaltioUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 565F04831DE5B5DF00FB1022 /* Build configuration list for PBXNativeTarget "loyaltioUITests" */;
+			buildPhases = (
+				565F04701DE5B5DF00FB1022 /* Sources */,
+				565F04711DE5B5DF00FB1022 /* Frameworks */,
+				565F04721DE5B5DF00FB1022 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				565F04761DE5B5DF00FB1022 /* PBXTargetDependency */,
+			);
+			name = loyaltioUITests;
+			productName = loyaltioUITests;
+			productReference = 565F04741DE5B5DF00FB1022 /* loyaltioUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		565F04481DE5B5DF00FB1022 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Slashmobility S.L.";
+				TargetAttributes = {
+					565F044F1DE5B5DF00FB1022 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					565F04681DE5B5DF00FB1022 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 565F044F1DE5B5DF00FB1022;
+					};
+					565F04731DE5B5DF00FB1022 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 565F044F1DE5B5DF00FB1022;
+					};
+				};
+			};
+			buildConfigurationList = 565F044B1DE5B5DF00FB1022 /* Build configuration list for PBXProject "loyaltio" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 565F04471DE5B5DF00FB1022;
+			productRefGroup = 565F04511DE5B5DF00FB1022 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				565F044F1DE5B5DF00FB1022 /* loyaltio */,
+				565F04681DE5B5DF00FB1022 /* loyaltioTests */,
+				565F04731DE5B5DF00FB1022 /* loyaltioUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		565F044E1DE5B5DF00FB1022 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				565F04631DE5B5DF00FB1022 /* LaunchScreen.storyboard in Resources */,
+				565F04601DE5B5DF00FB1022 /* Assets.xcassets in Resources */,
+				565F045E1DE5B5DF00FB1022 /* Main.storyboard in Resources */,
+				565F04C71DE5B60100FB1022 /* distribute_ipa.sh in Resources */,
+				565F04C51DE5B60100FB1022 /* .gitkeep.rtf in Resources */,
+				565F04CF1DE5B60100FB1022 /* .gitkeep.rtf in Resources */,
+				565F04C81DE5B60100FB1022 /* testfairy-upload-ios.sh in Resources */,
+				565F04BB1DE5B60100FB1022 /* exportOptions.plist in Resources */,
+				565F04C61DE5B60100FB1022 /* .gitkeep.rtf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		565F04671DE5B5DF00FB1022 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		565F04721DE5B5DF00FB1022 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		565F044C1DE5B5DF00FB1022 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				565F04C01DE5B60100FB1022 /* Preference.m in Sources */,
+				565F04CC1DE5B60100FB1022 /* UILabel+Formatted.m in Sources */,
+				565F04C41DE5B60100FB1022 /* CoreDataManager.m in Sources */,
+				565F04CD1DE5B60100FB1022 /* UIView+view.m in Sources */,
+				565F045B1DE5B5DF00FB1022 /* ViewController.m in Sources */,
+				565F04BC1DE5B60100FB1022 /* FDTakeController.m in Sources */,
+				565F04C91DE5B60100FB1022 /* NSDate+date.m in Sources */,
+				565F04C11DE5B60100FB1022 /* BlueToothCharacterist.m in Sources */,
+				565F04581DE5B5DF00FB1022 /* AppDelegate.m in Sources */,
+				565F04551DE5B5DF00FB1022 /* main.m in Sources */,
+				565F04BE1DE5B60100FB1022 /* ConectionHelper.m in Sources */,
+				565F04CE1DE5B60100FB1022 /* Utils.m in Sources */,
+				565F04CA1DE5B60100FB1022 /* UIColor+color.m in Sources */,
+				565F04BD1DE5B60100FB1022 /* Reachability.m in Sources */,
+				565F04BF1DE5B60100FB1022 /* CoreDataHelper.m in Sources */,
+				565F04C21DE5B60100FB1022 /* BluetoothManager.m in Sources */,
+				565F04C31DE5B60100FB1022 /* ConectionManager.m in Sources */,
+				565F04BA1DE5B60100FB1022 /* UIBaseVC.m in Sources */,
+				565F04CB1DE5B60100FB1022 /* UIFont+font.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		565F04651DE5B5DF00FB1022 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				565F046E1DE5B5DF00FB1022 /* loyaltioTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		565F04701DE5B5DF00FB1022 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				565F04791DE5B5DF00FB1022 /* loyaltioUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		565F046B1DE5B5DF00FB1022 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 565F044F1DE5B5DF00FB1022 /* loyaltio */;
+			targetProxy = 565F046A1DE5B5DF00FB1022 /* PBXContainerItemProxy */;
+		};
+		565F04761DE5B5DF00FB1022 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 565F044F1DE5B5DF00FB1022 /* loyaltio */;
+			targetProxy = 565F04751DE5B5DF00FB1022 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		565F045C1DE5B5DF00FB1022 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				565F045D1DE5B5DF00FB1022 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		565F04611DE5B5DF00FB1022 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				565F04621DE5B5DF00FB1022 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		565F047B1DE5B5DF00FB1022 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		565F047C1DE5B5DF00FB1022 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		565F047E1DE5B5DF00FB1022 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = loyaltio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = slash.loyaltio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		565F047F1DE5B5DF00FB1022 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = loyaltio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = slash.loyaltio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		565F04811DE5B5DF00FB1022 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = loyaltioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = slash.loyaltioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/loyaltio.app/loyaltio";
+			};
+			name = Debug;
+		};
+		565F04821DE5B5DF00FB1022 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = loyaltioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = slash.loyaltioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/loyaltio.app/loyaltio";
+			};
+			name = Release;
+		};
+		565F04841DE5B5DF00FB1022 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = loyaltioUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = slash.loyaltioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = loyaltio;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		565F04851DE5B5DF00FB1022 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = loyaltioUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = slash.loyaltioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = loyaltio;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		565F044B1DE5B5DF00FB1022 /* Build configuration list for PBXProject "loyaltio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				565F047B1DE5B5DF00FB1022 /* Debug */,
+				565F047C1DE5B5DF00FB1022 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		565F047D1DE5B5DF00FB1022 /* Build configuration list for PBXNativeTarget "loyaltio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				565F047E1DE5B5DF00FB1022 /* Debug */,
+				565F047F1DE5B5DF00FB1022 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		565F04801DE5B5DF00FB1022 /* Build configuration list for PBXNativeTarget "loyaltioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				565F04811DE5B5DF00FB1022 /* Debug */,
+				565F04821DE5B5DF00FB1022 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		565F04831DE5B5DF00FB1022 /* Build configuration list for PBXNativeTarget "loyaltioUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				565F04841DE5B5DF00FB1022 /* Debug */,
+				565F04851DE5B5DF00FB1022 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 565F04481DE5B5DF00FB1022 /* Project object */;
+}
