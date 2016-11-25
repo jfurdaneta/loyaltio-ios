@@ -2,8 +2,8 @@
 //  main.m
 //  loyaltio
 //
-//  Created by Ainhoa Calviño on 23/11/16.
-//  Copyright © 2016 Slashmobility S.L. All rights reserved.
+//  Created by user122982 on 11/24/16.
+//  Copyright © 2016 SlashMobility. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
